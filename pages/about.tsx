@@ -3,11 +3,13 @@ import {Container} from "../components/container.styled";
 import Navi from "../components/Navi";
 import FooterMain from "../components/FooterMain";
 import {AboutHeading, AboutSection, AboutText} from "../components/AboutStyle.styled";
+import MobileNav from '../components/MobileNav';
 
 const about = () => {
     return (
         <div>
             <Navi/>
+            <MobileNav/>
             <Container>
                 <AboutSection>
                     <AboutHeading>
