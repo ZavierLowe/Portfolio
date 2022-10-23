@@ -13,6 +13,10 @@ import DelphicPreview from "../assets/images/DelphicPreview.png";
 import MacbookDelphic from "../assets/images/Macbook Pro Delphic.png";
 import DelphicPreviewNew from "../assets/images/DelphicPreviewNew.png";
 import DxcPreview from "../assets/images/DXC-Preview.png";
+import FullcourtPreview from "../assets/images/Fullcourt Preview.png"
+import BostonPrview from "../assets/images/Boston Preview.png"
+import DXCMacbook from "../assets/images/DXC-Macbook.png"
+import DelphicMac from "../assets/images/Delphic-Mac.png"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,17 +27,20 @@ const ProjectGrid = () => {
 				<CardGrid>
 					{/*  Card 1 */}
 					<CardWrapper>
-						<a href="https://delphic-beauty.netlify.app/" target="_blank">
+						<Link href="/fullcourt">
+
+						
 							<Card>
 								<Image
 									className="img-hover"
 									layout="intrinsic"
-									src={DelphicPreviewNew}
+									src={FullcourtPreview}
 								/>
 							</Card>
-						</a>
+					
+						</Link>
 						<CardText>
-							<CardMeta>Mobile Development</CardMeta>
+							<CardMeta>Mobile Development & UX Design</CardMeta>
 							<CardHeading>FullCourt</CardHeading>
 							<CardDescription>
 								A basketball app helping users find pick up basketball games
@@ -48,7 +55,7 @@ const ProjectGrid = () => {
 								<Image
 									className="img-hover"
 									layout="intrinsic"
-									src={DelphicPreviewNew}
+									src={DelphicMac}
 								/>
 							</Card>
 						</a>
@@ -68,7 +75,7 @@ const ProjectGrid = () => {
 								<Image
 									className="img-hover"
 									layout="intrinsic"
-									src={DxcPreview}
+									src={DXCMacbook}
 								/>
 							</Card>
 						</a>
@@ -88,16 +95,15 @@ const ProjectGrid = () => {
 								<Image
 									className="img-hover"
 									layout="intrinsic"
-									src={DelphicPreviewNew}
+									src={BostonPrview}
 								/>
 							</Card>
 						</a>
 						<CardText>
-							<CardMeta>Mobile Development</CardMeta>
-							<CardHeading>FullCourt</CardHeading>
+							<CardMeta>UX Design</CardMeta>
+							<CardHeading>City of Boston Mayor's Office</CardHeading>
 							<CardDescription>
-								A basketball app helping users find pick up basketball games
-								with ease.
+								Pitching Boston as the Place for Business
 							</CardDescription>
 						</CardText>
 					</CardWrapper>

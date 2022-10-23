@@ -6,22 +6,24 @@ import {Container} from "./container.styled";
 
 const HeroMain = () => {
     return (
-        <div>
-            <Container>
-                <Hero>
-                    <HeroText>
-                        <HeroHeading>
-                            Hey, I'm Zavier a Front End Developer who loves making<HighlightStyled> Stunning </HighlightStyled>  User Interfaces that people love.
-                        </HeroHeading>
-
-                    </HeroText>
-                    <Button>See My Work</Button>
-                </Hero>
-
-            </Container>
-
-        </div>
-    );
+			<div>
+				<Container>
+					<Hero>
+						<HeroText>
+							<HeroHeading>
+								Hey, I'm Zavier a Front End Developer who loves making
+								<HighlightStyled color="#EC5D4D">
+									{" "}
+									Stunning{" "}
+								</HighlightStyled>{" "}
+								User Interfaces that people love.
+							</HeroHeading>
+						</HeroText>
+						<Button>See My Work</Button>
+					</Hero>
+				</Container>
+			</div>
+		);
 };
 
 export default HeroMain;

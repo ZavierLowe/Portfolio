@@ -64,7 +64,7 @@ export const CardText= styled.div`
 `
 export const CardHeading = styled.h2`
 	font-family: "ClashDisplay-Variable";
-	font-size: 32px;
+	font-size: 24px;
 	font-weight: 600;
 	letter-spacing: 0.2rem;
 	margin-top: 12px;

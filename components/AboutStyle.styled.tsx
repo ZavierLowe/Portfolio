@@ -2,6 +2,12 @@ import React from 'react';
 import styled from "styled-components";
 
 
+// interface marginProps {
+// 	marginTop: string;
+// }
+
+
+
 export const AboutSection = styled.div`
 	padding: 140px;
 

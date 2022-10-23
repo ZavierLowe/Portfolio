@@ -56,23 +56,23 @@ export const FooterLinks = styled.a<Border>`
 	font-weight: 500;
 	color: #f1ede4;
 	cursor: pointer;
-	transition: all 0.5s;
+	transition: all 0.2s;
 	text-decoration: none;
 	text-align: center;
 	border-left: ${(props) => props.borderLeft};
 	padding: 80px 0px;
 	&:hover {
-		color: #7d9aff;
+		color: #ec5d4d;
 	}
 	@media (max-width: 425px) {
-		border-top:1px solid ;
-    border-left: none;
-    width: 100%;
+		border-top: 1px solid;
+		border-left: none;
+		width: 100%;
 	}
 	@media (max-width: 768px) {
-		border-top:${(props) => props.borderTop} ;
-    border-left: none;
-    width: 100%;
+		border-top: ${(props) => props.borderTop};
+		border-left: none;
+		width: 100%;
 	}
 `;
 

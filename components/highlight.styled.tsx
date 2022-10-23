@@ -1,8 +1,13 @@
 import React from 'react';
 import styled from "styled-components";
 
+
+interface ColorStyle{
+  color:string;
+}
+
 export const HighlightStyled= styled.span`
-  color: #7d9aff;
-  font-weight: 700;
+  color: ${props => props.color};
+  font-weight: 600;
 
 `
