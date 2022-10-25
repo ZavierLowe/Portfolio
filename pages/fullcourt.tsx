@@ -5,6 +5,8 @@ import MobileNav from "../components/MobileNav";
 import Navi from "../components/Navi";
 import {
 	ProjectFlex,
+	ProjectGridImg,
+	ProjectGridImgDesc,
 	ProjectHeadingDesc,
 	ProjectHeadingDiv,
 	ProjectHeadingSection,
@@ -15,18 +17,15 @@ import {
 	ProjectTextSection,
 	ProjectTextWrapper,
 } from "../components/ProjectPage.styled";
-import BostonTopImage from "../assets/images/BOS-Top-Picture Macbook.png";
-import BostonServices from "../assets/images/Boston Services-p-800.png";
-import BostonContact from "../assets/images/Contact-Us-adapt-p-800.png";
-import BostonPitch from "../assets/images/Pitch-adapt-p-800.png";
-import BostonGif from "../assets/images/Boston Lifestyle Optimized.gif";
-import BostonInsights from "../assets/images/Boston insights-p-800.png";
 import BostonPersona from "../assets/images/Boston-Persona-p-800.png";
 import FullcourtImgTop from "../assets/images/Fullcourt-Project-Img2.png";
 import Image from "next/image";
 import { HighlightStyled } from "../components/highlight.styled";
 import DesignSystem from "../assets/images/DesignSystem-v1.png";
 import FullcourtPreview from "../assets/images/Fullcourt Preview.png";
+import FullcourtScreen from "../assets/images/Fullcourt-Screen.png";
+import FullcourtScreenSM from "../assets/images/Fullcourt-ScreenSM.png";
+import FullcourtScreenDetails from "../assets/images/Fullcourt-ScreenSM-GroupDetails.png";
 
 const fullcourt = () => {
 	return (
@@ -59,66 +58,83 @@ const fullcourt = () => {
 			<ProjectTextWrapper>
 				<ProjectTextHeading>Summary</ProjectTextHeading>
 				<ProjectTextDesc>
-					I'm a Designer and Developer at Fullcourt which is a young startup
-					with 40k users and counting. When introducing new features, we launch
-					quickly and refine on the fly. I work on adding new feautes to and
+					Fullcourt is a mobile app that aims to help the pick up basketball
+					community find and share games with ease around the world. As a young
+					startup with 40k users and counting we are constantly launching new
+					features that help our users. I've helped on adding new feautes and
 					revamping old ones to provide the best experience to our users.
 				</ProjectTextDesc>
 			</ProjectTextWrapper>
-			<ProjectTextWrapper>
-				<ProjectTextHeading>Editing Existing Groups</ProjectTextHeading>
-				<ProjectTextDesc>
-					For the current iteration of groups users coudl join groups backgorund
-					information about groups and how they potentially work image at the
-					bottom
-				</ProjectTextDesc>
-				<ProjectImgWrapper>
-					<Image src={FullcourtPreview} />
-				</ProjectImgWrapper>
-			</ProjectTextWrapper>
+			<ProjectTextSection display="" backgroundColor="" padding="140px">
+				<ProjectTextWrapper>
+					<ProjectTextHeading>Editing Existing Groups</ProjectTextHeading>
+					<ProjectTextDesc>
+						For the current iteration of groups users coudl join groups
+						backgorund information about groups and how they potentially work
+						image at the bottom
+					</ProjectTextDesc>
+				</ProjectTextWrapper>
+				<ProjectGridImg>
+					<ProjectImgWrapper width="500px" margin="0px">
+						<Image layout="intrinsic" src={FullcourtScreenSM} />
+						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
+					</ProjectImgWrapper>
+					<ProjectImgWrapper width="500px" margin="0px ">
+						<Image layout="intrinsic" src={FullcourtScreenSM} />
+						<ProjectGridImgDesc>Select Image Screen</ProjectGridImgDesc>
+					</ProjectImgWrapper>
+					<ProjectImgWrapper width="500px" margin="0px ">
+						<Image layout="intrinsic" src={FullcourtScreenSM} />
+						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
+					</ProjectImgWrapper>
+				</ProjectGridImg>
+			</ProjectTextSection>
+
+			<ProjectTextSection display="" backgroundColor="" padding="140px">
+				<ProjectTextWrapper>
+					<ProjectTextHeading>
+						Decisions on button placement{" "}
+					</ProjectTextHeading>
+					<ProjectTextDesc>
+						We thought about placing the button to edit the group the the
+						navigation at the top but we came to the conclusion that the button
+						should follow the exisiting design pattern when users join group.
+						One Screen with how it looked before screen when you joined the
+						group and another when you are the leader
+					</ProjectTextDesc>
+				</ProjectTextWrapper>
+				<ProjectGridImg>
+					<ProjectImgWrapper width="500px" margin="0px">
+						<Image layout="intrinsic" src={FullcourtScreenSM} />
+						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
+					</ProjectImgWrapper>
+					<ProjectImgWrapper width="500px" margin="0px ">
+						<Image layout="intrinsic" src={FullcourtScreenDetails} />
+						<ProjectGridImgDesc>Select Image Screen</ProjectGridImgDesc>
+					</ProjectImgWrapper>
+					<ProjectImgWrapper width="500px" margin="0px ">
+						<Image layout="intrinsic" src={FullcourtScreenDetails} />
+						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
+					</ProjectImgWrapper>
+				</ProjectGridImg>
+			</ProjectTextSection>
 			<ProjectTextWrapper>
 				<ProjectTextHeading>
-					How I solved the Idea of having the edit group button where the joined{" "}
+					Techical Feasability: Error States & Character limitation{" "}
 				</ProjectTextHeading>
 				<ProjectTextDesc>
-					We thought about placing the button to edit the group the the
-					navigation at the top but we came to the conclusion
-				</ProjectTextDesc>
-				<ProjectImgWrapper>
-					<Image src={BostonPersona} />
-				</ProjectImgWrapper>
-			</ProjectTextWrapper>
-			<ProjectTextWrapper>
-				<ProjectTextHeading>
-					Error States & Character limitation{" "}
-				</ProjectTextHeading>
-				<ProjectTextDesc>
-					In allowing users to edit groups we thought it would be helpful to
+					In speaking with developers we thought that it would be a good idea to allowing users to edit groups we thought it would be helpful to
 					give an error state if the group name is already available. This helps
 					the development not worry about having multiple groups with the same
 					name and causing confusing in the database. We also limited the amout
-					of characters for the groups description to not override the system
+					of characters for the groups description to not override the system.
 				</ProjectTextDesc>
 				<ProjectImgWrapper>
 					<Image src={BostonPersona} />
 				</ProjectImgWrapper>
 			</ProjectTextWrapper>
-			<ProjectTextWrapper>
-				<ProjectTextHeading>
-					Error States & Character limitation{" "}
-				</ProjectTextHeading>
-				<ProjectTextDesc>
-					In allowing users to edit groups we thought it would be helpful to
-					give an error state if the group name is already available. This helps
-					the development not worry about having multiple groups with the same
-					name and causing confusing in the database. We also limited the amout
-					of characters for the groups description to not override the system
-				</ProjectTextDesc>
-				<ProjectImgWrapper>
-					<Image src={BostonPersona} />
-				</ProjectImgWrapper>
-			</ProjectTextWrapper>
-			<ProjectTextSection backgroundColor="#F15C22">
+
+			<ProjectTextSection display="flex" backgroundColor="#F15C22">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>
 						Streamlining the Game Creaton Process
@@ -133,13 +149,13 @@ const fullcourt = () => {
 				</ProjectTextWrapper>
 				<ProjectFlex>
 					<ProjectImgWrapper>
-						<Image className="img-project" src={BostonServices} />
+						<Image className="img-project" src={FullcourtScreenSM} />
 					</ProjectImgWrapper>
 					<ProjectImgWrapper>
-						<Image src={BostonContact} />
+						<Image src={FullcourtScreenSM} />
 					</ProjectImgWrapper>
 					<ProjectImgWrapper>
-						<Image src={BostonPitch} />
+						<Image src={FullcourtScreenSM} />
 					</ProjectImgWrapper>
 				</ProjectFlex>
 			</ProjectTextSection>
@@ -162,7 +178,16 @@ const fullcourt = () => {
 					/>
 				</ProjectImgWrapper>
 			</ProjectFlex>
-			<ProjectTextWrapper></ProjectTextWrapper>
+			<ProjectTextWrapper>
+				<ProjectTextHeading>The Learning Process</ProjectTextHeading>
+				<ProjectTextDesc>
+					As a designer and devloper who bridges the gap between both fields I
+					believe that working with a designer and a team of developers has
+					helped me understand the best way to communicate to each parties and
+					teach them about how the other side works and how to better relate to
+					them.
+				</ProjectTextDesc>
+			</ProjectTextWrapper>
 
 			<FooterMain />
 		</div>

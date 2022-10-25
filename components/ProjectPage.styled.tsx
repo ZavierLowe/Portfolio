@@ -4,16 +4,17 @@ import styled from "styled-components";
 
 interface BackgroundProps{
     backgroundColor:string;
+    display:string
+    padding:string
 }
 interface HeadingProps{
     color:string;
 }
 interface WidthProps{
     width:string;
+    margin:string
 }
-interface WidthProps{
-    margin:string;
-}
+
 
 
 
@@ -82,20 +83,38 @@ export const ProjectTextWrapper = styled.div`
     margin: 0 auto;
 `
 export const ProjectTextSection = styled.div<BackgroundProps>`
-   
-    background-color:${props => props.backgroundColor} ;
-    padding: 100px 0px;
-  
+	background-color: ${(props) => props.backgroundColor};
+	padding: ${(props) => props.padding};
+	/* display:flex ;
+    justify-content: center; */
+`;
+
+export const ProjectGridImg = styled.div`
+	display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 28px;
+	grid-row-gap: 0px;
+`;
+
+export const ProjectGridImgDesc = styled.p`
+    font-size: 14px;
+    margin-top: 20px;
 `
 
 export const ProjectFlex = styled.div`
     display: flex;
    justify-content: center;
-    margin-top: 20px;
+    margin-top: 12px;
 `
 
 export const ProjectImgWrapper = styled.div<WidthProps>`
 	width: ${(props) => (props.width ? props.width : "auto")};
-	margin: 0px 20px;
+	margin:${(props => props.margin )};
+   
+	
 `;
 

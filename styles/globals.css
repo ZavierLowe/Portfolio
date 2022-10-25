@@ -52,7 +52,7 @@ table {
     color-scheme: dark;
   }
   body {
-    color: white;
+    color: #f1ede4;
     background: #121212;
     font-family: 'ClashDisplay-Variable';
   }
@@ -140,4 +140,28 @@ transition: all 0.4s;
 
 .img-project{
   border:2px solid black;
+}
+
+.project-img{
+  opacity: 0.25;
+}
+.project-img:hover{
+  opacity: 1;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.project-wrapper{
+  text-decoration: none;
+  color: #f1ede4;
+}
+.project-wrapper:hover{
+  text-decoration: none;
+  color: #f1ede4;
+  opacity: 1;
+}
+
+.link-wrapper{
+  text-decoration: none;
+  color: white;
 }

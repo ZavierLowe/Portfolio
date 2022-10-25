@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 export const Hero = styled.div`
-	height: 750px;
+	height: 1000px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -20,7 +20,7 @@ export const Hero = styled.div`
 
 export const HeroText = styled.div`
 	display: flex;
-	width: 800px;
+	width: 100%;
 	@media (max-width: 428px) {
 		max-width: calc(100% - 2px);
 	}
@@ -31,15 +31,27 @@ export const HeroText = styled.div`
 	}
 `;
 
-export const HeroHeading = styled.text`
-	font-size: 48px;
+export const HeroHeading = styled.h1`
+	font-size: 6.75em;
 	color: #f1ede4;
 	font-family: "ClashDisplay-Variable", sans-serif;
-	font-weight: 600;
+	font-weight: 500;
+	line-height: 1em;
 	@media (max-width: 428px) {
 		font-size: 24px;
 		line-height: 2.2rem;
-		
+	}
+	@media (max-width: 834px) {
+		font-size: 4.75em;
+		line-height: 1em;
+	}
+	@media (max-width: 1024px) {
+		font-size: 4.75em;
+		line-height: 1em;
+	}
+	@media (max-width: 1280px) {
+		font-size: 5.75em;
+		line-height: 1em;
 	}
 `;
 

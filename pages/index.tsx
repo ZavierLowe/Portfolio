@@ -11,6 +11,7 @@ import useLockBodyScroll from '../components/hooks/use-lock-scroll';
 import Image from 'next/image';
 import { useState } from 'react';
 import MobileNav from '../components/MobileNav';
+import ProjectGridWide from '../components/ProjectGridWide';
 
 
 
@@ -33,6 +34,7 @@ const Home: NextPage = () => {
 				<HeroMain />
 				<Marquee />
 				{/* Project Grid */}
+				<ProjectGridWide/>
 				<ProjectGrid />
 				{/* Playground Section */}
 				<PlayGroundMain />
