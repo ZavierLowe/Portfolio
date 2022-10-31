@@ -4,7 +4,6 @@ import styled from "styled-components";
 
 interface BackgroundProps{
     backgroundColor:string;
-    display:string
     padding:string
 }
 interface HeadingProps{
@@ -74,12 +73,11 @@ export const ProjectTextDesc = styled.p`
 `;
 
 export const ProjectTextWrapper = styled.div`
-    max-width: 800px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: stretch;
-    padding: 80px 100px;
+    padding: 80px 80px;
     margin: 0 auto;
 `
 export const ProjectTextSection = styled.div<BackgroundProps>`
@@ -96,8 +94,9 @@ export const ProjectGridImg = styled.div`
     justify-items: center;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: 1fr;
-	grid-column-gap: 28px;
+	grid-column-gap: 20px;
 	grid-row-gap: 0px;
+    padding: 0px 140px;
 `;
 
 export const ProjectGridImgDesc = styled.p`

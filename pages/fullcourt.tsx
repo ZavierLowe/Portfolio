@@ -54,18 +54,21 @@ const fullcourt = () => {
 				</Container>
 			</ProjectHeadingSection>
 			<Image src={FullcourtImgTop} layout="intrinsic" />
+			<ProjectTextSection display="" backgroundColor="" padding="0px">
+				<ProjectTextWrapper>
+					<ProjectTextHeading>Summary</ProjectTextHeading>
+					<ProjectTextDesc>
+						Fullcourt is a mobile app that aims to help the pick up basketball
+						community find and share games with ease around the world. As a
+						young startup with 40k users and counting we are constantly
+						launching new features that help our users. I've helped on adding
+						new feautes and revamping old ones to provide the best experience to
+						our users.
+					</ProjectTextDesc>
+				</ProjectTextWrapper>
+			</ProjectTextSection>
 
-			<ProjectTextWrapper>
-				<ProjectTextHeading>Summary</ProjectTextHeading>
-				<ProjectTextDesc>
-					Fullcourt is a mobile app that aims to help the pick up basketball
-					community find and share games with ease around the world. As a young
-					startup with 40k users and counting we are constantly launching new
-					features that help our users. I've helped on adding new feautes and
-					revamping old ones to provide the best experience to our users.
-				</ProjectTextDesc>
-			</ProjectTextWrapper>
-			<ProjectTextSection display="" backgroundColor="" padding="140px">
+			<ProjectTextSection display="" backgroundColor="" padding="0px">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>Editing Existing Groups</ProjectTextHeading>
 					<ProjectTextDesc>
@@ -90,7 +93,7 @@ const fullcourt = () => {
 				</ProjectGridImg>
 			</ProjectTextSection>
 
-			<ProjectTextSection display="" backgroundColor="" padding="140px">
+			<ProjectTextSection display="" backgroundColor="" padding="140px 0px">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>
 						Decisions on button placement{" "}
@@ -120,21 +123,22 @@ const fullcourt = () => {
 			</ProjectTextSection>
 			<ProjectTextWrapper>
 				<ProjectTextHeading>
-					Techical Feasability: Error States & Character limitation{" "}
+					Error States & Character limitation{" "}
 				</ProjectTextHeading>
 				<ProjectTextDesc>
-					In speaking with developers we thought that it would be a good idea to allowing users to edit groups we thought it would be helpful to
-					give an error state if the group name is already available. This helps
-					the development not worry about having multiple groups with the same
-					name and causing confusing in the database. We also limited the amout
-					of characters for the groups description to not override the system.
+					In speaking with developers we thought that it would be a good idea to
+					allowing users to edit groups we thought it would be helpful to give
+					an error state if the group name is already available. This helps the
+					development not worry about having multiple groups with the same name
+					and causing confusing in the database. We also limited the amout of
+					characters for the groups description to not override the system.
 				</ProjectTextDesc>
 				<ProjectImgWrapper>
-					<Image src={BostonPersona} />
+					<Image src={FullcourtScreenSM} />
 				</ProjectImgWrapper>
 			</ProjectTextWrapper>
 
-			<ProjectTextSection display="flex" backgroundColor="#F15C22">
+			<ProjectTextSection padding="120px" backgroundColor="#F15C22">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>
 						Streamlining the Game Creaton Process
@@ -147,17 +151,20 @@ const fullcourt = () => {
 						and if the game is a recurring game.
 					</ProjectTextDesc>
 				</ProjectTextWrapper>
-				<ProjectFlex>
-					<ProjectImgWrapper>
-						<Image className="img-project" src={FullcourtScreenSM} />
+				<ProjectGridImg>
+					<ProjectImgWrapper width="500px" margin="0px">
+						<Image layout="intrinsic" src={FullcourtScreenSM} />
+						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper>
-						<Image src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="500px" margin="0px ">
+						<Image layout="intrinsic" src={FullcourtScreenSM} />
+						<ProjectGridImgDesc>Select Image Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper>
-						<Image src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="500px" margin="0px ">
+						<Image layout="intrinsic" src={FullcourtScreenSM} />
+						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-				</ProjectFlex>
+				</ProjectGridImg>
 			</ProjectTextSection>
 			<ProjectTextWrapper>
 				<ProjectTextHeading color="#F15C22">

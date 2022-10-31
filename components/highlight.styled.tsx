@@ -9,10 +9,6 @@ interface ColorStyle{
 export const HighlightStyled= styled.span`
   color: ${props => props.color};
   font-weight: 600;
-  &:hover{
-    text-decoration:underline;
-    transition: all .5s ease-in-out;
-  }
 
 `
 
@@ -20,6 +16,7 @@ export const HighlightStyled= styled.span`
 
 export const HighlightStyledName = styled.span`
 	color: #f1ede4;
+	opacity: .5;
 	display: inline-block;
 	position: relative;
 
@@ -43,5 +40,6 @@ export const HighlightStyledName = styled.span`
 	}
 	&:hover {
 		color: ${(props) => props.color};
+		opacity: 1;
 	}
 `;

@@ -36,7 +36,7 @@ export const HeroHeading = styled.h1`
 	color: #f1ede4;
 	font-family: "ClashDisplay-Variable", sans-serif;
 	font-weight: 500;
-	line-height: 1em;
+	line-height: 1.2em;
 	@media (max-width: 428px) {
 		font-size: 24px;
 		line-height: 2.2rem;

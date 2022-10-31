@@ -17,7 +17,13 @@ const FooterMain = () => {
 			</Footer>
 			<FooterGrid>
 				<FooterLinks
+					borderTop={"1px solid #f1ede4"}
 					borderLeft={"none"}
+					href="mailto:zavier.lowe@gmail.com">
+					Email
+				</FooterLinks>
+				<FooterLinks
+					borderLeft={"1px solid #f1ede4"}
 					borderTop={"none"}
 					href="https://www.linkedin.com/in/zavierlowe/"
 					target="_blank">
