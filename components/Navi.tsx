@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from "next/link";
-import Resume from "../assets/documents/Zavier Lowe Resume-Front End Developer & Designer.pdf"
+// import Resume from "../assets/documents/Zavier Lowe Resume-Front End Developer & Designer.pdf"
 import {Logo, NavItems, NavLink, NavLinks, Navigation} from "./Header.styled";
 
 const Navi = () => {
@@ -31,7 +31,7 @@ const Navi = () => {
 							</NavLink>
 						</NavItems>
 
-						<NavItems href={Resume}>Resume</NavItems>
+						<NavItems >Resume</NavItems>
 					</NavLinks>
 				</Navigation>
 			</div>
