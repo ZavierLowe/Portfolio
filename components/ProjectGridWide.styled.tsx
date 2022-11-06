@@ -9,6 +9,11 @@ interface LinkProps{
 export const CardGridWide = styled.div`
 	margin-top: 140px;
 	margin-bottom: 140px;
+
+	@media (max-width: 425px) {
+		width: 100%;
+		
+	}
 `;
 
 export const CardGridWideHeadingWrapper = styled.div`
@@ -17,23 +22,33 @@ export const CardGridWideHeadingWrapper = styled.div`
 	align-items: center;
 	margin: 12px 0px;
 	opacity: 1;
-	&:hover{
+	&:hover {
 		opacity: 1;
+	}
+
+	@media (max-width: 425px) {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
 	}
 `;
 
 export const CardGridWideHeading = styled.h1`
-    
-    font-size: 48px;
-    font-weight: 600;
-    letter-spacing: .2rem;
-`
+	font-size: 48px;
+	font-weight: 600;
+	letter-spacing: 0.2rem;
+	@media (max-width: 425px) {
+		font-size: 1.6em;
+	}
+`;
 export const CardGridWideDesc = styled.p`
-    
-    font-size: 20px;
-    font-weight: 400;
-    margin: 12px 0px;
-    letter-spacing: .1rem;
+	font-size: 20px;
+	font-weight: 400;
+	margin: 12px 0px;
+	letter-spacing: 0.1rem;
+	@media (max-width: 425px) {
+		font-size: 1em;
+	}
 `;
 export const CardGridWideMeta = styled.span`
 	font-size: 14px;
@@ -54,8 +69,12 @@ export const ProjectIcon = styled.div`
 	opacity: 0.25;
 	&:hover {
 		opacity: 1;
-		
+
 		transition: all 0.5s ease-out;
+	}
+	@media (max-width: 425px) {
+		width: 20px;
+		height: 20px;
 	}
 `;
 
@@ -74,5 +93,10 @@ export const ProjectLinkWrapper = styled.a<LinkProps>`
 		transition: all 0.3s ease-in-out;
 		color: #f15c22;
 		will-change: opacity;
+	}
+
+	@media (max-width: 425px) {
+		width: 100%;
+		
 	}
 `;

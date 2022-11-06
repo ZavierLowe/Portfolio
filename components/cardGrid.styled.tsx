@@ -11,7 +11,7 @@ export const CardGrid = styled.div`
 	grid-row-gap: 90px;
 	justify-content: center;
 	align-items: center;
-	@media (max-width: 428px) {
+	@media (max-width: 425px) {
 		
 		grid-template-columns: 1fr;
 	}

@@ -16,7 +16,7 @@ export const HighlightStyled= styled.span`
 
 export const HighlightStyledName = styled.span`
 	color: #f1ede4;
-	opacity: .5;
+	opacity: 0.5;
 	display: inline-block;
 	position: relative;
 
@@ -42,4 +42,8 @@ export const HighlightStyledName = styled.span`
 		color: ${(props) => props.color};
 		opacity: 1;
 	}
+	/* @media (max-width: 428px) {
+		font-size: 2.5em;
+		line-height: 2.2rem;
+	} */
 `;

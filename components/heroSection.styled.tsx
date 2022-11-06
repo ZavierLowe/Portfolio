@@ -8,8 +8,8 @@ export const Hero = styled.div`
 	justify-content: center;
 	align-items: flex-start;
 	@media (max-width: 425px) {
-		max-width: 400px;
-		height: 400px;
+		max-width: 420px;
+		height: 500px;
 	}
 
 	@media (max-width: 768px) {
@@ -22,12 +22,14 @@ export const HeroText = styled.div`
 	display: flex;
 	width: 100%;
 	@media (max-width: 428px) {
-		max-width: calc(100% - 2px);
+		max-width: calc(100px - 2px);
 	}
 
 	@media (max-width: 768px) {
 		max-width: calc(100% - 25px);
-		
+	}
+	@media (max-width: 1024px) {
+		max-width: calc(100% - 25px);
 	}
 `;
 
@@ -37,22 +39,12 @@ export const HeroHeading = styled.h1`
 	font-family: "ClashDisplay-Variable", sans-serif;
 	font-weight: 500;
 	line-height: 1.2em;
-	@media (max-width: 428px) {
-		font-size: 24px;
-		line-height: 2.2rem;
+
+	@media (max-width:425px){
+
+		font-size:2.5em;
 	}
-	@media (max-width: 834px) {
-		font-size: 4.75em;
-		line-height: 1em;
-	}
-	@media (max-width: 1024px) {
-		font-size: 4.75em;
-		line-height: 1em;
-	}
-	@media (max-width: 1280px) {
-		font-size: 5.75em;
-		line-height: 1em;
-	}
+
 `;
 
 

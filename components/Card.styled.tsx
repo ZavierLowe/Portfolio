@@ -9,23 +9,18 @@ export const CardWrapper = styled.div`
 	height: 100%;
 	width: 100%;
 	transition: transform 0.2s;
-  @media(max-width:425px){
-    max-width: 100%;
-    
-  }
-  @media(max-width:768px){
-    max-width: calc(100% -200px);
-    
-  }
-  @media(max-width:1024px){
-    max-width: calc(100% - 200px);
-    
-  }
-  @media(max-width:1440px){
-    max-width: calc(100% - 1px);
-    
-  }
-	
+	@media (max-width: 425px) {
+		max-width: calc(100% -500px);
+	}
+	@media (max-width: 768px) {
+		max-width: calc(100% -200px);
+	}
+	@media (max-width: 1024px) {
+		max-width: calc(100% - 200px);
+	}
+	@media (max-width: 1440px) {
+		max-width: calc(100% - 1px);
+	}
 `;
 
 
@@ -37,11 +32,11 @@ export const Card = styled.div<ColorProps>`
 	display: flex;
 	justify-content: center;
 	@media (max-width: 425px) {
-		width: 100%;
+		width: 200px;
     
 	}
 	@media (max-width: 768px) {
-		width: 320px;
+		width: 100%;
     
 	}
 	@media (max-width: 1024px) {

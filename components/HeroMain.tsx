@@ -23,7 +23,7 @@ const HeroMain = () => {
 							Interfaces look good and function great!
 						</HeroHeading>
 					</HeroText>
-					<Button>See My Work</Button>
+					{/* <Button>See My Work</Button> */}
 				</Hero>
 			</Container>
 		</div>

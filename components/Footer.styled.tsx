@@ -65,7 +65,7 @@ export const FooterLinks = styled.a<Border>`
 		color: #ec5d4d;
 	}
 	@media (max-width: 425px) {
-		border-top: 1px solid;
+		border-top: ${(props) => props.borderTop};
 		border-left: none;
 		width: 100%;
 	}
