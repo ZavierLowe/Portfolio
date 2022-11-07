@@ -55,6 +55,7 @@ table {
     color: #f1ede4;
     background: #121212;
     font-family: 'ClashDisplay-Variable';
+    overflow-x: hidden;
   }
 }
 
@@ -162,6 +163,57 @@ transition: all 0.4s;
 }
 
 .link-wrapper{
+ 	color: #f1ede4;
+	opacity: 0.5;
+	display: inline-block;
+	position: relative;
   text-decoration: none;
-  color: white;
+  cursor: pointer;
+}
+
+.link-wrapper::after{
+ content: "";
+		position: absolute;
+		width: 100%;
+		transform: scaleX(0);
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		background-color: #ec5d4d;
+		transform-origin: bottom left;
+		transition: transform 0.3s ease-in-out;
+}
+.link-wrapper:hover::after{
+  transform: scaleX(1);
+		transform-origin: bottom left;
+		cursor: pointer;
+		transition: all 0.3s ease-in-out;
+}
+
+.link-wrapper:hover{
+  color: #ec5d4d;
+  opacity: 1;
+}
+
+
+
+
+
+
+.card-wrapper{
+  height: 100%;
+	width: 100%;
+	transition: transform 0.2s;
+	@media (max-width: 425px) {
+		max-width: calc(100% -500px);
+	}
+	@media (max-width: 768px) {
+		max-width: calc(100% -200px);
+	}
+	@media (max-width: 1024px) {
+		max-width: calc(100% - 200px);
+	}
+	@media (max-width: 1440px) {
+		max-width: calc(100% - 1px);
+	}
 }

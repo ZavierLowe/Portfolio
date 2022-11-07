@@ -7,7 +7,7 @@ export const Hero = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	@media (max-width: 425px) {
+	@media (max-width: 428px) {
 		max-width: 420px;
 		height: 500px;
 	}
@@ -40,7 +40,7 @@ export const HeroHeading = styled.h1`
 	font-weight: 500;
 	line-height: 1.2em;
 
-	@media (max-width:425px){
+	@media (max-width:428px){
 
 		font-size:2.5em;
 	}

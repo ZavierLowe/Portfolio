@@ -33,7 +33,7 @@ const fullcourt = () => {
 			<Navi />
 			<MobileNav />
 
-			<ProjectHeadingSection>
+			<ProjectHeadingSection backgroundColor="none">
 				<Container>
 					<ProjectHeadingDiv>
 						{/* <ProjectHeadingDesc>
@@ -53,22 +53,27 @@ const fullcourt = () => {
 					</ProjectHeadingDiv>
 				</Container>
 			</ProjectHeadingSection>
-			<Image src={FullcourtImgTop} layout="intrinsic" />
-			<ProjectTextSection display="" backgroundColor="" padding="0px">
+			<Image
+				priority={true}
+				src={FullcourtImgTop}
+				layout="intrinsic"
+				alt="Fullcourt Image"
+			/>
+			<ProjectTextSection  backgroundColor="" padding="0px">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>Summary</ProjectTextHeading>
 					<ProjectTextDesc>
 						Fullcourt is a mobile app that aims to help the pick up basketball
 						community find and share games with ease around the world. As a
 						young startup with 40k users and counting we are constantly
-						launching new features that help our users. I've helped on adding
-						new feautes and revamping old ones to provide the best experience to
-						our users.
+						launching new features that help our users. I &apos;ve helped on
+						adding new feautes and revamping old ones to provide the best
+						experience to our users.
 					</ProjectTextDesc>
 				</ProjectTextWrapper>
 			</ProjectTextSection>
 
-			<ProjectTextSection display="" backgroundColor="" padding="0px">
+			<ProjectTextSection backgroundColor="" padding="0px">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>Editing Existing Groups</ProjectTextHeading>
 					<ProjectTextDesc>
@@ -78,22 +83,34 @@ const fullcourt = () => {
 					</ProjectTextDesc>
 				</ProjectTextWrapper>
 				<ProjectGridImg>
-					<ProjectImgWrapper width="500px" margin="0px">
-						<Image layout="intrinsic" src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenSM}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper width="500px" margin="0px ">
-						<Image layout="intrinsic" src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenSM}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Select Image Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper width="500px" margin="0px ">
-						<Image layout="intrinsic" src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenSM}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
 				</ProjectGridImg>
 			</ProjectTextSection>
 
-			<ProjectTextSection display="" backgroundColor="" padding="140px 0px">
+			<ProjectTextSection backgroundColor="" padding="140px 0px">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>
 						Decisions on button placement{" "}
@@ -107,16 +124,28 @@ const fullcourt = () => {
 					</ProjectTextDesc>
 				</ProjectTextWrapper>
 				<ProjectGridImg>
-					<ProjectImgWrapper width="500px" margin="0px">
-						<Image layout="intrinsic" src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenSM}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper width="500px" margin="0px ">
-						<Image layout="intrinsic" src={FullcourtScreenDetails} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenDetails}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Select Image Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper width="500px" margin="0px ">
-						<Image layout="intrinsic" src={FullcourtScreenDetails} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenDetails}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
 				</ProjectGridImg>
@@ -133,8 +162,8 @@ const fullcourt = () => {
 					and causing confusing in the database. We also limited the amout of
 					characters for the groups description to not override the system.
 				</ProjectTextDesc>
-				<ProjectImgWrapper>
-					<Image src={FullcourtScreenSM} />
+				<ProjectImgWrapper width="auto" margin="">
+					<Image src={FullcourtScreenSM} alt="Fullcourt Image" />
 				</ProjectImgWrapper>
 			</ProjectTextWrapper>
 
@@ -152,16 +181,28 @@ const fullcourt = () => {
 					</ProjectTextDesc>
 				</ProjectTextWrapper>
 				<ProjectGridImg>
-					<ProjectImgWrapper width="500px" margin="0px">
-						<Image layout="intrinsic" src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenSM}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper width="500px" margin="0px ">
-						<Image layout="intrinsic" src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenSM}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Select Image Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
-					<ProjectImgWrapper width="500px" margin="0px ">
-						<Image layout="intrinsic" src={FullcourtScreenSM} />
+					<ProjectImgWrapper width="auto" margin="">
+						<Image
+							layout="intrinsic"
+							src={FullcourtScreenSM}
+							alt="Fullcourt Image"
+						/>
 						<ProjectGridImgDesc>Edit Screen</ProjectGridImgDesc>
 					</ProjectImgWrapper>
 				</ProjectGridImg>
@@ -177,11 +218,12 @@ const fullcourt = () => {
 				</ProjectTextDesc>
 			</ProjectTextWrapper>
 			<ProjectFlex>
-				<ProjectImgWrapper>
+				<ProjectImgWrapper width="auto" margin="">
 					<Image
 						className="img-project"
 						layout="intrinsic"
 						src={DesignSystem}
+						alt="Design System"
 					/>
 				</ProjectImgWrapper>
 			</ProjectFlex>

@@ -9,8 +9,6 @@ import {
 import {Container} from "./container.styled";
 import {Button} from "./Button.styles";
 import {CardDescription} from "./Card.styled";
-import Lightbox from "./Lightbox"
-import useLockBodyScroll from "./hooks/use-lock-scroll";
 import MortgageCalculator from "../assets/images/Mortgage Calculator.png";
 import RealEstateGrid from "../assets/images/Real Estate Grid.png";
 import SneakerProduct from "../assets/images/Sneaker-ProductPage.png";
@@ -37,16 +35,16 @@ const PlaygroundMain = () => {
 								<Button>See More</Button>
 							</Link>
 							<PlayGroundGrid>
-								<Lightbox src={MortgageCalculator} alt={"Mortgage Calculator"}>
-									<Image layout="intrinsic" src={MortgageCalculator} />
-								</Lightbox>
+								
+									<Image layout="intrinsic" src={MortgageCalculator} alt="Mortgage Calculator" />
+								
 
-								<Lightbox src={RealEstateGrid} alt={"Mortgage Calculator"}>
-									<Image layout="intrinsic" src={RealEstateGrid} />
-								</Lightbox>
-								<Lightbox src={SneakerProduct} alt={"Mortgage Calculator"}>
-									<Image layout="intrinsic" src={SneakerProduct} />
-								</Lightbox>
+								
+									<Image layout="intrinsic" src={RealEstateGrid} alt="Real Estate Grid" />
+								
+								
+									<Image layout="intrinsic" src={SneakerProduct} alt="Sneaker Product Page" />
+								
 							</PlayGroundGrid>
 						</Container>
 					</PlayGroundSection>

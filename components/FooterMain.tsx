@@ -12,7 +12,7 @@ const FooterMain = () => {
 		<div>
 			<Footer>
 				<FooterWrapper>
-					<FooterHeading>Come Network and Say What's Up!</FooterHeading>
+					<FooterHeading>Come Network and Say Whats Up</FooterHeading>
 				</FooterWrapper>
 			</Footer>
 			<FooterGrid>

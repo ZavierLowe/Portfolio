@@ -45,7 +45,7 @@ const ProjectGridWide = () => {
 						</CardGridWideHeadingWrapper>
 					
 					
-						<Image className="img-hover" src={FullcourtImgTop} />
+						<Image className="img-hover" src={FullcourtImgTop} alt="Fullcourt Image" />
 					
                     </ProjectLinkWrapper>
                  

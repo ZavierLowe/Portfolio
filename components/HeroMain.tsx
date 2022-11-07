@@ -12,12 +12,10 @@ const HeroMain = () => {
 				<Hero>
 					<HeroText>
 						<HeroHeading>
-							Hey 👋🏾 , I'm{" "}
-							<a className="link-wrapper" href="/about">
-								<HighlightStyledName color="#EC5D4D">
-									Zavier
-								</HighlightStyledName>{" "}
-							</a>
+							Hey 👋🏾 , Im{" "}
+							<Link  href="/about">
+								<a className="link-wrapper">Zavier</a>
+							</Link>{" "}
 							a Developer & Designer that is excited to make
 							<HighlightStyled color="#EC5D4D"> Stunning </HighlightStyled> User
 							Interfaces look good and function great!

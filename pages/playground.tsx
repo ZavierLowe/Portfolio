@@ -39,53 +39,53 @@ const playground = () => {
 				<Container>
 					<PlaygroundGridMain>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SettingsPage} />
+							<Image layout="intrinsic" src={SettingsPage} alt='settings page' />
 
 							<CardDescription>Settings Page</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SocialProfile} />
+							<Image layout="intrinsic" src={SocialProfile} alt='social profile' />
 
 							<CardDescription>Profile Page</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={MusicPlayer} />
+							<Image layout="intrinsic" src={MusicPlayer}  alt='music player'/>
 
 							<CardDescription>Music Player</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SneakerProduct} />
+							<Image layout="intrinsic" src={SneakerProduct} alt="sneaker product page" />
 
 							<CardDescription>E-Commerce Product Page</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={AppIcon} />
+							<Image layout="intrinsic" src={AppIcon} alt="Mobile App Icon" />
 
 							<CardDescription>App Icon</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={MortgageCalculator} />
+							<Image layout="intrinsic" src={MortgageCalculator} alt="Mortgage Calculator" />
 
 							<CardDescription>Mortgage Calculator</CardDescription>
 						</PlaygroundWrapper>
 						
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={EmailReceipt} />
+							<Image layout="intrinsic" src={EmailReceipt} alt="Email Receipt" />
 
 							<CardDescription>Email Receipt</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SignupScreen} />
+							<Image layout="intrinsic" src={SignupScreen} alt="Signup Screen" />
 
 							<CardDescription>Sign Up </CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SocialMediaDash} />
+							<Image layout="intrinsic" src={SocialMediaDash} alt="Social Media Dashboard" />
 
 							<CardDescription>Social Media Dashboard </CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={RealEstateGrid} />
+							<Image layout="intrinsic" src={RealEstateGrid} alt="Real Estate Grid" />
 
 							<CardDescription>Real Estate Grid </CardDescription>
 						</PlaygroundWrapper>

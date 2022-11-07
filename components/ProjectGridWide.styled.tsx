@@ -10,7 +10,7 @@ export const CardGridWide = styled.div`
 	margin-top: 140px;
 	margin-bottom: 140px;
 
-	@media (max-width: 425px) {
+	@media (max-width: 428px) {
 		width: 100%;
 		
 	}
@@ -26,7 +26,7 @@ export const CardGridWideHeadingWrapper = styled.div`
 		opacity: 1;
 	}
 
-	@media (max-width: 425px) {
+	@media (max-width: 428px) {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -46,7 +46,7 @@ export const CardGridWideDesc = styled.p`
 	font-weight: 400;
 	margin: 12px 0px;
 	letter-spacing: 0.1rem;
-	@media (max-width: 425px) {
+	@media (max-width: 428px) {
 		font-size: 1em;
 	}
 `;
@@ -72,7 +72,7 @@ export const ProjectIcon = styled.div`
 
 		transition: all 0.5s ease-out;
 	}
-	@media (max-width: 425px) {
+	@media (max-width: 428px) {
 		width: 20px;
 		height: 20px;
 	}

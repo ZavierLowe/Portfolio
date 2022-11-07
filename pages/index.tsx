@@ -7,7 +7,6 @@ import PlayGroundMain from "../components/PlayGroundMain";
 import ProjectGrid from "../components/ProjectGrid";
 import HeroMain from "../components/HeroMain";
 import SocialImage from "../assets/images/Settings Page.png"
-import useLockBodyScroll from '../components/hooks/use-lock-scroll';
 import Image from 'next/image';
 import { useState } from 'react';
 import MobileNav from '../components/MobileNav';
@@ -34,7 +33,7 @@ const Home: NextPage = () => {
 				<HeroMain />
 				<Marquee />
 				{/* Project Grid */}
-				<ProjectGridWide/>
+				{/* <ProjectGridWide/> */}
 				<ProjectGrid />
 				{/* Playground Section */}
 				<PlayGroundMain />
