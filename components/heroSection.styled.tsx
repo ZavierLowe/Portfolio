@@ -2,8 +2,9 @@ import React from 'react';
 import styled from "styled-components";
 
 export const Hero = styled.div`
-	height: 1000px;
+	height: 800px;
 	display: flex;
+	padding: 80px 40px;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
@@ -22,7 +23,7 @@ export const HeroText = styled.div`
 	display: flex;
 	width: 100%;
 	@media (max-width: 428px) {
-		max-width: calc(100px - 2px);
+		max-width: calc(100% - 2px);
 	}
 
 	@media (max-width: 768px) {
@@ -34,15 +35,15 @@ export const HeroText = styled.div`
 `;
 
 export const HeroHeading = styled.h1`
-	font-size: 6.75em;
-	color: #f1ede4;
-	font-family: "ClashDisplay-Variable", sans-serif;
-	font-weight: 500;
-	line-height: 1.2em;
+	font-size: 5.75em;
+	/* color: #f1ede4; */
+	font-family: "Switzer-Variable", ;
+	font-weight:900;
+	line-height: 1.1em;
 
 	@media (max-width:428px){
 
-		font-size:2.5em;
+		font-size:1.5em;
 	}
 
 `;

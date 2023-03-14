@@ -2,11 +2,20 @@ import React from 'react';
 import styled from "styled-components";
 
 export const Navigation = styled.nav`
-	font-family: "ClashDisplay-Variable", sans-serif;
-	padding: 24px 72px;
+	font-family: "Switzer-variable", sans-serif;
+	padding: 24px 24px;
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 1px solid #f1ede4;
+	align-items:center;
+	background-color: #149414;
+	border-bottom: 1px solid #090909;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+	/* height: 40px; */
+    /* width: 100%; */
+	z-index:100;
 	@media (max-width: 1024px) {
 		display: flex;
 	}
@@ -19,6 +28,7 @@ export const Navigation = styled.nav`
 `;
 export const Logo = styled.h2`
 	font-size: 24px;
+	font-weight:400;
 	color: #f1ede4;
 	text-decoration: none;
 	cursor: pointer;
@@ -31,6 +41,7 @@ export const NavLinks= styled.div`
   display: flex;
   font-size: 20px;
   color: #f1ede4;
+  font-weight:200;
   text-decoration: none;
   @media (max-width:425px) {
     display: block;
@@ -42,8 +53,9 @@ export const NavItems = styled.ul`
 	margin-left: 16px;
 	cursor: pointer;
 	text-decoration: none;
+	font-weight:300;
 	&:hover {
-		color: #ec5d4d;
+		color: #f97a04;
 		transition: all 0.2s;
 	}
 	@media (max-width: 425px) {
@@ -51,16 +63,14 @@ export const NavItems = styled.ul`
 	}
 `;
 
-export const NavItem = styled.li`
-  margin: 0 12px;
 
-`
 
 export const NavLink = styled.a`
 	color: #f1ede4;
 	text-decoration: none;
+	font-weight:300;
 	&:hover {
-		color: #ec5d4d;
+		color: #f97a04;
 		transition: all 0.2s;
 	}
 `;

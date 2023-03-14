@@ -8,7 +8,7 @@ interface ColorStyle{
 
 export const HighlightStyled= styled.span`
   color: ${props => props.color};
-  font-weight: 600;
+  font-weight:800;
 
 `
 

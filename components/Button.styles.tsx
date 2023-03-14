@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 export const Button = styled.button`
 	background: transparent;
+	font-family:"Switzer-Variable";
 	color: #ffffff;
 	cursor: pointer;
 	font-size: 20px;
@@ -34,7 +35,7 @@ export const Button = styled.button`
 	}
 
 	&:hover {
-		background: #ec5d4d;
+		background: #c55d01;
 		transition: all 0.5s;
 
 		padding-right: 10px;

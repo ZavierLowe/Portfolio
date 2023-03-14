@@ -36,11 +36,7 @@ const FooterMain = () => {
 					target="_blank">
 					TikTok
 				</FooterLinks>
-				<FooterLinks
-					borderTop={"1px solid #f1ede4"}
-					borderLeft={"1px solid #f1ede4"}>
-					Instagram
-				</FooterLinks>
+				
 			</FooterGrid>
 		</div>
 	);

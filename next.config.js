@@ -10,4 +10,5 @@ module.exports = {
 	images: {
 		unoptimized: true,
 	},
+	poweredByHeader: false,
 };

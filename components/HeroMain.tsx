@@ -12,16 +12,17 @@ const HeroMain = () => {
 				<Hero>
 					<HeroText>
 						<HeroHeading>
-							Hey 👋🏾 , Im{" "}
+							 I'm{" "}
 							<Link  href="/about">
 								<a className="link-wrapper">Zavier</a>
 							</Link>{" "}
-							a Developer & Designer that is excited to make
-							<HighlightStyled color="#EC5D4D"> Stunning </HighlightStyled> User
-							Interfaces look good and function great!
+							a Cyber Security Analyst that is excited to help companies protect their assets and
+							<HighlightStyled > mitigate risk </HighlightStyled> through 
+							<HighlightStyled color="#a337eb"> Threat Modeling</HighlightStyled>
+							
 						</HeroHeading>
 					</HeroText>
-					{/* <Button>See My Work</Button> */}
+					<Button>See My Work</Button>
 				</Hero>
 			</Container>
 		</div>
