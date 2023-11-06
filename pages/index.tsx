@@ -11,7 +11,6 @@ import Image from "next/image";
 import { useState } from "react";
 import MobileNav from "../components/MobileNav";
 import ProjectGridWide from "../components/ProjectGridWide";
-import FooterNew from "../components/Footer2/FooterNew";
 
 const Home: NextPage = () => {
 	return (

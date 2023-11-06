@@ -7,28 +7,28 @@ const Navi = () => {
     return (
 			<div>
 				<Navigation>
-					<Link href={"/"}>
-						<NavLink>
+					
+						
 							<Logo>Zavier Lowe</Logo>
-						</NavLink>
-					</Link>
+						
+					
 
 					<NavLinks>
-						<Link href={"/"}>
+						
 							<NavItems>
 								<NavLink>Projects</NavLink>
 							</NavItems>
-						</Link>
-						<Link href={"/about"}>
+						
+						
 							<NavItems>
 								<NavLink>About</NavLink>
 							</NavItems>
-						</Link>
-						<Link href={"/playground"}>
+						
+						
 							<NavItems>
 								<NavLink>Playground</NavLink>
 							</NavItems>
-						</Link>
+						
 						
 
 						<NavItems>

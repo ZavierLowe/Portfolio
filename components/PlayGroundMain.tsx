@@ -36,14 +36,14 @@ const PlaygroundMain = () => {
 							</Link>
 							<PlayGroundGrid>
 								
-									<Image layout="intrinsic" src={MortgageCalculator} alt="Mortgage Calculator" />
+									<Image  src={MortgageCalculator} alt="Mortgage Calculator" />
 								
 
 								
-									<Image layout="intrinsic" src={RealEstateGrid} alt="Real Estate Grid" />
+									<Image  src={RealEstateGrid} alt="Real Estate Grid" />
 								
 								
-									<Image layout="intrinsic" src={SneakerProduct} alt="Sneaker Product Page" />
+									<Image  src={SneakerProduct} alt="Sneaker Product Page" />
 								
 							</PlayGroundGrid>
 						</Container>
