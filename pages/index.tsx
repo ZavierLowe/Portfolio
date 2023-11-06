@@ -11,6 +11,7 @@ import Image from "next/image";
 import { useState } from "react";
 import MobileNav from "../components/MobileNav";
 import ProjectGridWide from "../components/ProjectGridWide";
+import { headers } from 'next/headers'
 
 const Home: NextPage = () => {
 	return (
@@ -40,5 +41,6 @@ const Home: NextPage = () => {
 		</div>
 	);
 };
+
 
 export default Home;
