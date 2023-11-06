@@ -47,22 +47,17 @@ table {
   border-spacing: 0;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
+  } */
   body {
-<<<<<<< HEAD
+
     color: #020202;
     background: #f6eee5;
-    font-family: 'GeneralSans-Variable';
-=======
-    color: #faf1f1;
-    background:#0c0c0c;
-    font-family: 'Switzer-Variable', sans-serif;
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
-    overflow-x: hidden;
-  }
+    font-family: 'ClashDisplay-Variable';
+
+   
 }
 
 @font-face {

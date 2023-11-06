@@ -35,7 +35,6 @@ export const HeroText = styled.div`
 `;
 
 export const HeroHeading = styled.h1`
-<<<<<<< HEAD
 	font-size: 6.75em;
 	color: #020202;
 	font-family: "ClashDisplay-Variable", sans-serif;
@@ -44,17 +43,6 @@ export const HeroHeading = styled.h1`
 
 	@media (max-width: 428px) {
 		font-size: 2.5em;
-=======
-	font-size: 5.75em;
-	/* color: #f1ede4; */
-	font-family: "Switzer-Variable", ;
-	font-weight:900;
-	line-height: 1.1em;
-
-	@media (max-width:428px){
-
-		font-size:1.5em;
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 	}
 `;
 

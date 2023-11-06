@@ -3,14 +3,8 @@ import styled from "styled-components";
 
 
 export const Button = styled.button`
-<<<<<<< HEAD
 	background: white;
 	color: #080808;
-=======
-	background: transparent;
-	font-family:"Switzer-Variable";
-	color: #ffffff;
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 	cursor: pointer;
 	font-size: 20px;
 	font-weight: 500;
@@ -39,11 +33,7 @@ export const Button = styled.button`
 	}
 
 	&:hover {
-<<<<<<< HEAD
 		background: #6817d1;
-=======
-		background: #c55d01;
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 		transition: all 0.5s;
 		color: #fefefe;
 		padding-right: 10px;

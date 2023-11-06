@@ -9,11 +9,7 @@ import styled from "styled-components";
 
 
 export const AboutSection = styled.div`
-<<<<<<< HEAD
 	padding: 140px 100px;
-=======
-	padding: 140px 300px;
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 
 	@media (max-width: 425px) {
 		padding: 40px 20px;

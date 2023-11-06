@@ -20,18 +20,26 @@ const Navi = () => {
 							</NavItems>
 						</Link>
 						<Link href={"/about"}>
-							<NavItems>About</NavItems>
+							<NavItems>
+								<NavLink>About</NavLink>
+							</NavItems>
 						</Link>
 						<Link href={"/playground"}>
-							<NavItems>Playground</NavItems>
+							<NavItems>
+								<NavLink>Playground</NavLink>
+							</NavItems>
 						</Link>
+						
+
 						<NavItems>
 							<NavLink href={"https://github.com/ZavierLowe"} target="_blank">
 								Github
 							</NavLink>
 						</NavItems>
 
-						<NavItems >Resume</NavItems>
+						<NavItems>
+							<NavLink>Resume</NavLink>
+						</NavItems>
 					</NavLinks>
 				</Navigation>
 			</div>

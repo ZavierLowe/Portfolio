@@ -2,13 +2,8 @@
     background-color: transparent;
     overflow: hidden;
     padding: 16px 0;
-<<<<<<< HEAD
     border-bottom: 1px solid #000000;
     border-top: 1px solid #000000;
-=======
-    /* border-bottom: 1px solid #faf1f1 ;
-    border-top: 1px solid #faf1f1; */
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 }
 @media screen and (min-width: 1025px) {
     .marqueeSection {
@@ -51,19 +46,11 @@
     animation-direction: normal;
 }
 .marqueeSection__text {
-<<<<<<< HEAD
     font-family: "Satoshi-Variable", sans-serif;
     display: block;
     overflow: hidden;
     color: #000000;
     font-size: 16px;
-=======
-    font-family: "Switzer-Variable", sans-serif;
-    display: block;
-    overflow: hidden;
-    color:#faf1f1;
-    font-size: 24px;
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
     text-transform: uppercase;
     font-weight: 600;
     line-height: 3.2rem;
@@ -80,13 +67,8 @@
 
 @media screen and (min-width: 750px) {
     .marqueeSection {
-<<<<<<< HEAD
         border-top: 1px solid #000000;
         border-bottom: 1px solid #000000;
-=======
-        /* border-top: 1px solid #faf1f1;
-        border-bottom: 1px solid #faf1f1; */
->>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
     }
 }
 /*! CSS Used keyframes */
