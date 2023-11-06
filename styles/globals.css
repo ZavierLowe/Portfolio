@@ -52,9 +52,15 @@ table {
     color-scheme: dark;
   }
   body {
+<<<<<<< HEAD
     color: #020202;
     background: #f6eee5;
     font-family: 'GeneralSans-Variable';
+=======
+    color: #faf1f1;
+    background:#0c0c0c;
+    font-family: 'Switzer-Variable', sans-serif;
+>>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
     overflow-x: hidden;
   }
 }
@@ -143,6 +149,20 @@ table {
   font-display: swap;
   font-style: normal;
 }
+
+
+
+
+@font-face {
+  font-family: 'Switzer-Variable';
+  src: url('../public/fonts/Switzer-Variable.woff2') format('woff2'),
+       url('../public/fonts/Switzer-Variable.woff') format('woff'),
+       url('../public/fonts/Switzer-Variable.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
+
 
 .img-hover{
   cursor: pointer;

@@ -36,11 +36,10 @@ const ProjectGrid = () => {
 							/>
 						</Link>
 						<CardText>
-							<CardMeta>Mobile Development & UX Design</CardMeta>
+							<CardMeta>Defensive Security</CardMeta>
 							<CardHeading>FullCourt</CardHeading>
 							<CardDescription>
-								A basketball app helping users find pick up basketball games
-								with ease.
+								Helping a basketball app protect thier user data through using security tools and security audits.
 							</CardDescription>
 						</CardText>
 					</div>
@@ -99,15 +98,19 @@ const ProjectGrid = () => {
 							<Image
 								className="img-hover"
 								layout="intrinsic"
-								src={BostonPrview}
+								src="https://i.stack.imgur.com/Gns38.png"
+								
+								width={2768}
+								height={2558}
+
 								alt="Boston Preview"
 							/>
 						</a>
 						<CardText>
-							<CardMeta>UX Design</CardMeta>
-							<CardHeading>City of Boston Mayors Office</CardHeading>
+							<CardMeta>Offensive Security</CardMeta>
+							<CardHeading>Password Cracking</CardHeading>
 							<CardDescription>
-								Pitching Boston as the Place for Business
+								Using Kali Linux to learn about password cracking fro a set of hashes using hashcat
 							</CardDescription>
 						</CardText>
 					</CardWrapper>

@@ -39,7 +39,11 @@ export const FooterHeading= styled.h1`
 
 export const FooterGrid = styled.div`
 	display: grid;
+<<<<<<< HEAD
 	grid-template-columns: repeat(5, 1fr);
+=======
+	grid-template-columns: repeat(3, 1fr);
+>>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 	grid-template-rows: 0fr;
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;

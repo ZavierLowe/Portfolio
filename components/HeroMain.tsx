@@ -12,6 +12,7 @@ const HeroMain = () => {
 				<Hero>
 					<HeroText>
 						<HeroHeading>
+<<<<<<< HEAD
 							Hey 👋🏾 , Im{" "}
 							<Link href="/about">
 								<a className="link-wrapper">Zavier</a>
@@ -21,6 +22,16 @@ const HeroMain = () => {
 								{" "}
 								Cloud Environments{" "}
 							</HighlightStyled>
+=======
+							 I'm{" "}
+							<Link  href="/about">
+								<a className="link-wrapper">Zavier</a>
+							</Link>{" "}
+							a Cyber Security Analyst that is excited to help companies protect their assets and
+							<HighlightStyled > mitigate risk </HighlightStyled> through 
+							<HighlightStyled color="#a337eb"> Threat Modeling</HighlightStyled>
+							
+>>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 						</HeroHeading>
 					</HeroText>
 					<Button>See My Work</Button>

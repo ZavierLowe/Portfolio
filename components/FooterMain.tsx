@@ -43,6 +43,7 @@ const FooterMain = () => {
 					target="_blank">
 					TikTok
 				</FooterLinks>
+<<<<<<< HEAD
 				<FooterLinks
 					color="#9436ec"
 					borderTop={"1px solid #f1ede4"}
@@ -55,6 +56,9 @@ const FooterMain = () => {
 					borderLeft={"1px solid #000000"}>
 					Twitter
 				</FooterLinks>
+=======
+				
+>>>>>>> 992b2b7659a1db9ab6b71dfe6870eb3d42a9d849
 			</FooterGrid>
 		</div>
 	);

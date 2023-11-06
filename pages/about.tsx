@@ -19,26 +19,9 @@ const about = () => {
 					<AboutHeading>My Story</AboutHeading>
 				
 						
-						
+					
 						<AboutText>
-							Over the years I got my degree in Psychology and wondered how
-							digital experiences are created. With my interest peeked, I
-							attended a User Experience bootcamp to understand the design
-							process and how users interact with digital interfaces. From there
-							I was able to design interfaces but something from my skillet felt
-							like it was missing. It was the ability to code! I wanted to know
-							the ins and outs of creating digital experiences from the design
-							and development perspective.
-						</AboutText>
-						
-						<AboutText>
-							With that in mind I decided to take another bootcamp in Software
-							Engineering. It was tough but I was able to face one of my fears
-							and learn something that I was running away from. Now today I am
-							proud I took that leap because being developer is so rewarding and
-							I dont regret taking that chance and believing in myself. I am so
-							excited that now I have the ability to create the digital
-							experiences I only dreamed about.
+							After graduating college with a B.S in Psychology. I tried many career paths to find a career path. I went through a plenty full of ups and downs trying to find out what career path would be the best for me with my background and skills. I first attempted UX design where I realized early on that this career path would not be the best fit for me but I tried it, and ultimatley relaized that it wasn't for me. After I tried software engineering as a career path and learned alot about programming and buliding web applications. I attended a three month boocamp to learn full stack web development. Saying that it was extremely hard is an understatment! I went through the whole interview gaulent that was software engineering and began to do some work for a startup. After contributing for some days I realized in that moment that I couldn't see myself programming day in and day out as a career path. While taking a step back and doing some research, I stumbled onto a cyber sercurtiy youtube channel talking about security and tech news. I then proceeded to binge watch the videos and research more into a career in cyber security. Something clicked where now I am excited to learn more about cyber security and the constant challnges organiations face protecting their assets. I believe the psychological aspects of cybersecurity and my desire to understand threact actors and how they compromise organizations lead me to currently wanting to be a cyber security professional. I eventuall want to get into a leadership position as a CISO and help individuals in underserved communities gain the knowledge to start and thrive in thier Cybersecurity career.
 						</AboutText>
 					
 				</AboutSection>
