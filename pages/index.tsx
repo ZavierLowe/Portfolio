@@ -23,13 +23,13 @@ const Home: NextPage = () => {
 
 			<div>
 				<Navi />
-				<MobileNav />
+				{/* <MobileNav /> */}
 				{/* Hero Section */}
 				<HeroMain />
 				<Marquee />
 				{/* Project Grid */}
-				<ProjectGridWide/>
-				{/* <ProjectGrid /> */}
+				{/* <ProjectGridWide/> */}
+				<ProjectGrid />
 				{/* Playground Section */}
 				<PlayGroundMain />
 				{/*  Footer  */}

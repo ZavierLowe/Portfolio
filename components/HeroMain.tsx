@@ -12,11 +12,8 @@ const HeroMain = () => {
 				<Hero>
 					<HeroText>
 						<HeroHeading>
-							Hey 👋🏾 , Im{" "}
-							
-								<a className="link-wrapper">Zavier</a>
-							
-							a Cyber Security Professional focused on securing
+							Hey 👋🏾 , Im <a className="link-wrapper">Zavier</a> a Cyber
+							Security Professional focused on securing
 							<HighlightStyled color="#7926e6">
 								{" "}
 								Cloud Environments{" "}

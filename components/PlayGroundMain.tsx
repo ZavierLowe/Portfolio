@@ -35,16 +35,25 @@ const PlaygroundMain = () => {
 								<Button>See More</Button>
 							</Link>
 							<PlayGroundGrid>
-								
-									<Image  src={MortgageCalculator} alt="Mortgage Calculator" />
-								
+								<Image
+									width={450}
+									src={MortgageCalculator}
+									alt="Mortgage Calculator"
+								/>
 
-								
-									<Image  src={RealEstateGrid} alt="Real Estate Grid" />
-								
-								
-									<Image  src={SneakerProduct} alt="Sneaker Product Page" />
-								
+								<Image
+									width={450}
+									
+									src={RealEstateGrid}
+									alt="Real Estate Grid"
+								/>
+
+								<Image
+									width={450}
+									
+									src={SneakerProduct}
+									alt="Sneaker Product Page"
+								/>
 							</PlayGroundGrid>
 						</Container>
 					</PlayGroundSection>

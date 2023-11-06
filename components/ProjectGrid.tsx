@@ -30,7 +30,7 @@ const ProjectGrid = () => {
 						<Link href="/fullcourt">
 							<Image
 								className="img-hover"
-								layout="intrinsic"
+								width={500}
 								src={FullcourtPreview}
 								alt="Fullcourt Image"
 							/>
@@ -39,7 +39,8 @@ const ProjectGrid = () => {
 							<CardMeta>Defensive Security</CardMeta>
 							<CardHeading>FullCourt</CardHeading>
 							<CardDescription>
-								Helping a basketball app protect thier user data through using security tools and security audits.
+								Helping a basketball app protect thier user data through using
+								security tools and security audits.
 							</CardDescription>
 						</CardText>
 					</div>
@@ -52,7 +53,7 @@ const ProjectGrid = () => {
 							rel="noreferrer">
 							<Image
 								className="img-hover"
-								layout="intrinsic"
+								width={500}
 								src={DelphicMac}
 								alt="Delphic Preview"
 							/>
@@ -74,7 +75,7 @@ const ProjectGrid = () => {
 							rel="noreferrer">
 							<Image
 								className="img-hover"
-								layout="intrinsic"
+								width={500}
 								src={DXCMacbook}
 								alt="DXC Preview"
 							/>
@@ -99,10 +100,8 @@ const ProjectGrid = () => {
 								className="img-hover"
 								layout="intrinsic"
 								src="https://i.stack.imgur.com/Gns38.png"
-								
-								width={2768}
-								height={2558}
-
+								width={500}
+								height={500}
 								alt="Boston Preview"
 							/>
 						</a>
@@ -110,7 +109,8 @@ const ProjectGrid = () => {
 							<CardMeta>Offensive Security</CardMeta>
 							<CardHeading>Password Cracking</CardHeading>
 							<CardDescription>
-								Using Kali Linux to learn about password cracking fro a set of hashes using hashcat
+								Using Kali Linux to learn about password cracking fro a set of
+								hashes using hashcat
 							</CardDescription>
 						</CardText>
 					</CardWrapper>

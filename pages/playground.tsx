@@ -23,8 +23,8 @@ import MobileNav from '../components/MobileNav';
 const playground = () => {
     return (
 			<div>
-				<Navi/>
-				<MobileNav/>
+				<Navi />
+				{/* <MobileNav /> */}
 				<PageHeadingTop>
 					<Container>
 						<PageHeadingText>
@@ -39,53 +39,58 @@ const playground = () => {
 				<Container>
 					<PlaygroundGridMain>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SettingsPage} alt='settings page' />
+							<Image
+								width={500}
+								height={500}
+								src={SettingsPage}
+								alt="settings page"
+							/>
 
 							<CardDescription>Settings Page</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SocialProfile} alt='social profile' />
+							<Image src={SocialProfile} alt="social profile" />
 
 							<CardDescription>Profile Page</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={MusicPlayer}  alt='music player'/>
+							<Image src={MusicPlayer} alt="music player" />
 
 							<CardDescription>Music Player</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SneakerProduct} alt="sneaker product page" />
+							<Image src={SneakerProduct} alt="sneaker product page" />
 
 							<CardDescription>E-Commerce Product Page</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={AppIcon} alt="Mobile App Icon" />
+							<Image src={AppIcon} alt="Mobile App Icon" />
 
 							<CardDescription>App Icon</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={MortgageCalculator} alt="Mortgage Calculator" />
+							<Image src={MortgageCalculator} alt="Mortgage Calculator" />
 
 							<CardDescription>Mortgage Calculator</CardDescription>
 						</PlaygroundWrapper>
-						
+
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={EmailReceipt} alt="Email Receipt" />
+							<Image src={EmailReceipt} alt="Email Receipt" />
 
 							<CardDescription>Email Receipt</CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SignupScreen} alt="Signup Screen" />
+							<Image src={SignupScreen} alt="Signup Screen" />
 
 							<CardDescription>Sign Up </CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={SocialMediaDash} alt="Social Media Dashboard" />
+							<Image src={SocialMediaDash} alt="Social Media Dashboard" />
 
 							<CardDescription>Social Media Dashboard </CardDescription>
 						</PlaygroundWrapper>
 						<PlaygroundWrapper>
-							<Image layout="intrinsic" src={RealEstateGrid} alt="Real Estate Grid" />
+							<Image src={RealEstateGrid} alt="Real Estate Grid" />
 
 							<CardDescription>Real Estate Grid </CardDescription>
 						</PlaygroundWrapper>
