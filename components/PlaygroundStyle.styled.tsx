@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const PlayGroundSection = styled.section`
 	padding: 80px 0;
-	border-top: 1px solid #f1ede4;
+	border-top: 1px solid #000000;
 `;
 export const PlayGroundContent = styled.div`
 	display: flex;
@@ -13,7 +13,7 @@ export const PlayGroundContent = styled.div`
 export const PlayGroundHeading = styled.h1`
 	font-family: "ClashDisplay-Variable", sans-serif;
 	font-size: 42px;
-	color: #f1ede4;
+	color: #101010;
 	font-weight: 700;
 	letter-spacing: 1.6px;
 `;
@@ -21,7 +21,7 @@ export const PlayGroundHeading = styled.h1`
 export const PlayGroundDescription = styled.p`
 	font-family: "ClashDisplay-Variable", sans-serif;
 	font-size: 20px;
-	color: #f1ede4;
+	color: #0c0c0c;
 	margin-top: 20px;
 	font-weight: 500;
 `;

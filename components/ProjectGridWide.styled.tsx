@@ -17,6 +17,7 @@ export const CardGridWide = styled.div`
 `;
 
 export const CardGridWideHeadingWrapper = styled.div`
+	font-family: "ClashDisplay-Variable", sans-serif;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -34,6 +35,7 @@ export const CardGridWideHeadingWrapper = styled.div`
 `;
 
 export const CardGridWideHeading = styled.h1`
+	font-family: "ClashDisplay-Variable", sans-serif;
 	font-size: 48px;
 	font-weight: 600;
 	letter-spacing: 0.2rem;
@@ -42,6 +44,7 @@ export const CardGridWideHeading = styled.h1`
 	}
 `;
 export const CardGridWideDesc = styled.p`
+	font-family: "ClashDisplay-Variable", sans-serif;
 	font-size: 20px;
 	font-weight: 400;
 	margin: 12px 0px;
@@ -51,15 +54,16 @@ export const CardGridWideDesc = styled.p`
 	}
 `;
 export const CardGridWideMeta = styled.span`
+	font-family: "ClashDisplay-Variable", sans-serif;
 	font-size: 14px;
-	color: #787878;
+	color: #2d2c2c;
 	font-weight: 400;
 	letter-spacing: 1.2px;
 `;
 
 export const ProjectDivider = styled.div`
 	height: 1px;
-	background-color: #f1ede4;
+	background-color: #090909;
 	margin: 20px 0px;
 `;
 
@@ -83,7 +87,7 @@ export const ProjectLinkWrapper = styled.a<LinkProps>`
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
-	color: white;
+	color: #151414;
 	filter: blur(0px);
 	will-change: filter, opacity;
 	opacity: 1;

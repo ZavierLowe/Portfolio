@@ -3,18 +3,17 @@ import styled from "styled-components";
 
 
 export const Button = styled.button`
-	background: transparent;
-	color: #ffffff;
+	background: white;
+	color: #080808;
 	cursor: pointer;
 	font-size: 20px;
 	font-weight: 500;
-	font-weight: 600;
 	padding: 0 20px;
-	width: 240px;
+	width: 220px;
 	height: 60px;
 	transition: all 0.5s;
-	border: 1px solid #f1ede4;
-	border-radius: 5px;
+	border: 1px solid #0a0a0a;
+	border-radius: 50px;
 	position: relative;
 	margin-top: 20px;
 
@@ -25,7 +24,7 @@ export const Button = styled.button`
 
 		position: absolute;
 		left: 30px;
-		top: 22.5px;
+		top: 21.5px;
 		right: 5%;
 		bottom: 0;
 		opacity: 0;
@@ -34,13 +33,13 @@ export const Button = styled.button`
 	}
 
 	&:hover {
-		background: #ec5d4d;
+		background: #6817d1;
 		transition: all 0.5s;
-
+		color: #fefefe;
 		padding-right: 10px;
 		padding-left: 40px;
 		margin-right: -12px;
-		width: 250px;
+		width: 240px;
 
 		&::before {
 			opacity: 1;

@@ -35,16 +35,14 @@ export const HeroText = styled.div`
 
 export const HeroHeading = styled.h1`
 	font-size: 6.75em;
-	color: #f1ede4;
+	color: #020202;
 	font-family: "ClashDisplay-Variable", sans-serif;
 	font-weight: 500;
 	line-height: 1.2em;
 
-	@media (max-width:428px){
-
-		font-size:2.5em;
+	@media (max-width: 428px) {
+		font-size: 2.5em;
 	}
-
 `;
 
 

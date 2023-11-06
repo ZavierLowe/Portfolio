@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 export const PageHeadingTop= styled.div`
-  border-bottom: 1px solid #F1EDE4;
+  border-bottom: 1px solid #090909;
 
 `
 
@@ -14,7 +14,8 @@ export const PageHeadingText = styled.div`
 `;
 
 export const PageHeader = styled.h1`
-	color: #f1ede4;
+	font-family: "ClashDisplay-Variable", sans-serif;
+	color: #040404;
 	font-size: 72px;
 	font-weight: 700;
 	@media (max-width: 425px) {
@@ -22,18 +23,18 @@ export const PageHeader = styled.h1`
 	}
 `;
 
-export const PageDescription= styled.p`
-  color: #F1EDE4;
-  font-size: 24px;
-  font-weight: 500;
-  margin-top: 20px;
-  line-height: 1.2em;
-  width: 600px;
-  @media (max-width:425px){
-    width: 375px;
-    font-size: 20px;
-  }
-
-`
+export const PageDescription = styled.p`
+	font-family: "ClashDisplay-Variable", sans-serif;
+	color: #000000;
+	font-size: 24px;
+	font-weight: 400;
+	margin-top: 20px;
+	line-height: 1.2em;
+	width: 800px;
+	@media (max-width: 425px) {
+		width: 375px;
+		font-size: 20px;
+	}
+`;
 
 

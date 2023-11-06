@@ -52,12 +52,43 @@ table {
     color-scheme: dark;
   }
   body {
-    color: #f1ede4;
-    background: #121212;
-    font-family: 'ClashDisplay-Variable';
+    color: #020202;
+    background: #f6eee5;
+    font-family: 'GeneralSans-Variable';
     overflow-x: hidden;
   }
 }
+
+@font-face {
+  font-family: 'GeneralSans-Variable';
+  src: url('../public/fonts/GeneralSans-Variable.woff2') format('woff2'),
+  url('../public/fonts/GeneralSans-Variable.woff') format('woff'),
+  url('../public/fonts/GeneralSans-Variable.ttf') format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src: url('../public/fonts/Satoshi-Variable.woff2') format('woff2'),
+  url('../public/fonts/Satoshi-Variable.woff') format('woff'),
+  url('../public/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo-Variable';
+  src: url('../public/fonts/Archivo-Variable.woff2') format('woff2'),
+  url('../public/fonts/Archivo-Variable.woff') format('woff'),
+  url('../public/fonts/Archivo-Variable.ttf') format('truetype');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}
+
 
 @font-face {
   font-family: 'ClashDisplay-Variable';
@@ -163,7 +194,7 @@ transition: all 0.4s;
 }
 
 .link-wrapper{
- 	color: #f1ede4;
+ 	color: #501cf9;
 	opacity: 0.5;
 	display: inline-block;
 	position: relative;
@@ -179,7 +210,7 @@ transition: all 0.4s;
 		height: 2px;
 		bottom: 0;
 		left: 0;
-		background-color: #ec5d4d;
+		background-color: #501cf9;
 		transform-origin: bottom left;
 		transition: transform 0.3s ease-in-out;
 }
@@ -191,7 +222,7 @@ transition: all 0.4s;
 }
 
 .link-wrapper:hover{
-  color: #ec5d4d;
+  color: #501cf9;
   opacity: 1;
 }
 

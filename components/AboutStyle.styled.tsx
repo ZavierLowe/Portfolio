@@ -9,7 +9,7 @@ import styled from "styled-components";
 
 
 export const AboutSection = styled.div`
-	padding: 140px;
+	padding: 140px 100px;
 
 	@media (max-width: 425px) {
 		padding: 40px 20px;
@@ -29,7 +29,6 @@ font-size: 48px;
 
 `
 export const AboutText = styled.p`
-	width: 85%;
 	font-size: 20px;
 	margin-top: 20px;
 	font-weight: 400;

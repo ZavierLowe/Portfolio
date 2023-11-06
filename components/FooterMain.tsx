@@ -5,6 +5,7 @@ import {
 	FooterLinks,
 	FooterWrapper,
 	Footer,
+	
 } from "./Footer.styled";
 
 const FooterMain = () => {
@@ -12,34 +13,47 @@ const FooterMain = () => {
 		<div>
 			<Footer>
 				<FooterWrapper>
-					<FooterHeading>Come Network and Say Whats Up</FooterHeading>
+					<FooterHeading>Tap in and Say Whats Up!</FooterHeading>
 				</FooterWrapper>
 			</Footer>
 			<FooterGrid>
 				<FooterLinks
-					borderTop={"none"}
+					color="#214deb"
 					borderLeft={"none"}
-					href="mailto:zavier.lowe@gmail.com">
-					Email
-				</FooterLinks>
-				<FooterLinks
-					borderLeft={"1px solid #f1ede4"}
-					borderTop={"1px solid #f1ede4"}
-					href="https://www.linkedin.com/in/zavierlowe/"
+					borderTop={"1px solid #000000"}
+					// href="https://www.linkedin.com/in/zavierlowe/"
 					target="_blank">
 					LinkedIn
 				</FooterLinks>
+
 				<FooterLinks
+					color="#f94f28"
+					borderTop={"none"}
+					borderLeft={"1px solid #080808"}
+					// href="mailto:zavier.lowe@gmail.com"
+					target="_blank">
+					Email
+					
+				</FooterLinks>
+				<FooterLinks
+					color="#dd4669"
 					borderTop={"1px solid #f1ede4"}
-					borderLeft={"1px solid #f1ede4"}
-					href="https://www.tiktok.com/@zavierlowe"
+					borderLeft={"1px solid #070707"}
+					// href="https://www.tiktok.com/@zavierlowe"
 					target="_blank">
 					TikTok
 				</FooterLinks>
 				<FooterLinks
+					color="#9436ec"
 					borderTop={"1px solid #f1ede4"}
-					borderLeft={"1px solid #f1ede4"}>
+					borderLeft={"1px solid #000000"}>
 					Instagram
+				</FooterLinks>
+				<FooterLinks
+					color="#0b2ef1"
+					borderTop={"1px solid #f1ede4"}
+					borderLeft={"1px solid #000000"}>
+					Twitter
 				</FooterLinks>
 			</FooterGrid>
 		</div>

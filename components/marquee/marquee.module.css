@@ -2,8 +2,8 @@
     background-color: transparent;
     overflow: hidden;
     padding: 16px 0;
-    border-bottom: 1px solid #f1ede4;
-    border-top: 1px solid #f1ede4;
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
 }
 @media screen and (min-width: 1025px) {
     .marqueeSection {
@@ -46,10 +46,10 @@
     animation-direction: normal;
 }
 .marqueeSection__text {
-    font-family: "ClashDisplay-Variable", sans-serif;
+    font-family: "Satoshi-Variable", sans-serif;
     display: block;
     overflow: hidden;
-    color: white;
+    color: #000000;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 600;
@@ -67,8 +67,8 @@
 
 @media screen and (min-width: 750px) {
     .marqueeSection {
-        border-top: 1px solid #f1ede4;
-        border-bottom: 1px solid #f1ede4;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
     }
 }
 /*! CSS Used keyframes */
