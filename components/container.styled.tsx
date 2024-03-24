@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container:any = styled.div`
 	margin: 0 auto;
 	padding: 0 115px;
 	max-width: 1400px;

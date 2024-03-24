@@ -1,13 +1,18 @@
 .marqueeSection {
-    background-color: transparent;
+    background-color:  rgba(248, 240, 227, 0.7);
     overflow: hidden;
-    padding: 16px 0;
-    border-bottom: 1px solid #000000;
-    border-top: 1px solid #000000;
+    padding: 20px 20px;
+    border-bottom: 1px solid #4960F7;
+    border-top: 1px solid #4960F7;
+    backdrop-filter: blur(130px);
+    
 }
 @media screen and (min-width: 1025px) {
     .marqueeSection {
-        padding: 16px 0;
+        padding: 12px 0;
+        border-radius: 10px;
+        
+        margin-top: 12px;
     }
 }
 .marqueeSection__marquee {
@@ -46,13 +51,13 @@
     animation-direction: normal;
 }
 .marqueeSection__text {
-    font-family: "Satoshi-Variable", sans-serif;
+    font-family: "ClashDisplay-Variable", sans-serif;
     display: block;
     overflow: hidden;
-    color: #000000;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 600;
+    color: #252521;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
     line-height: 3.2rem;
     -ms-flex-negative: 0;
     flex-shrink: 0;
@@ -60,15 +65,14 @@
 }
 @media screen and (min-width: 1025px) {
     .marqueeSection__text {
-        font-size: 32px;
-        line-height: 4rem;
+        font-size: 16px;
+        line-height: 3rem;
     }
 }
 
 @media screen and (min-width: 750px) {
     .marqueeSection {
-        border-top: 1px solid #000000;
-        border-bottom: 1px solid #000000;
+        border: 1px solid #252521;
     }
 }
 /*! CSS Used keyframes */

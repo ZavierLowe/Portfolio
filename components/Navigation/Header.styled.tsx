@@ -1,12 +1,24 @@
 import React from 'react';
-import styled from "styled-components";
+import styled, { IStyledComponent } from "styled-components";
 
-export const Navigation = styled.nav`
+export const Navigation: any = styled.nav`
 	font-family: "ClashDisplay-variable", sans-serif;
+	color: #f6eee5;
+	background-color: rgba(20, 20, 20, 0.6);
+	backdrop-filter: blur(130px);
+	box-shadow: 0px 4px 16px 6px rgba(0, 0, 0, 0.25);
+	z-index: 1000;
+	position: fixed;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 80%;
 	padding: 24px 24px;
 	display: flex;
 	justify-content: space-between;
-	border-bottom: 1px solid #0c0c0c;
+	border-radius: 10px;
+	border: 0.5px solid #353535;
 	@media (max-width: 1024px) {
 		display: flex;
 	}
@@ -18,9 +30,8 @@ export const Navigation = styled.nav`
 	}
 `;
 export const Logo = styled.h2`
-	font-size: 24px;
-	font-weight: 500;
-	color: #090909;
+	font-size: 20px;
+	font-weight: 300;
 	text-decoration: none;
 	cursor: pointer;
 	&:hover {
@@ -31,11 +42,10 @@ export const Logo = styled.h2`
 `;
 export const NavLinks = styled.div`
 	display: flex;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
-	color: #090909;
 	text-decoration: none;
-	
+
 	@media (max-width: 425px) {
 		display: block;
 	}
@@ -45,7 +55,7 @@ export const NavItems = styled.ul`
 	margin-left: 16px;
 	cursor: pointer;
 	text-decoration: none;
-	font-weight:500;
+	font-weight:300;
 	&:hover {
 		color: #a421fb;
 		transition: all 0.2s;
@@ -58,9 +68,9 @@ export const NavItems = styled.ul`
 
 
 export const NavLink = styled.a`
-	color: #030303;
 	text-decoration: none;
-	font-weight:500;
+	color: #f6eee5;
+	font-weight: 300;
 	&:hover {
 		color: #7926e6;
 		text-decoration: underline;

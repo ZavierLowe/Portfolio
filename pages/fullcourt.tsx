@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "../components/container.styled";
 import FooterMain from "../components/FooterMain";
 import MobileNav from "../components/MobileNav";
-import Navi from "../components/Navi";
+import Navi from "../components/Navigation/Navi";
 import {
 	ProjectFlex,
 	ProjectGridImg,
@@ -59,7 +59,7 @@ const fullcourt = () => {
 				layout="intrinsic"
 				alt="Fullcourt Image"
 			/>
-			<ProjectTextSection  backgroundColor="" padding="0px">
+			<ProjectTextSection backgroundColor="" padding="0px">
 				<ProjectTextWrapper>
 					<ProjectTextHeading>Summary</ProjectTextHeading>
 					<ProjectTextDesc>

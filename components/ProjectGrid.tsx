@@ -30,14 +30,14 @@ const ProjectGrid = () => {
 						<Link href="/fullcourt">
 							<Image
 								className="img-hover"
-								width={500}
+								width={600}
 								src={FullcourtPreview}
 								alt="Fullcourt Image"
 							/>
 						</Link>
 						<CardText>
-							<CardMeta>Defensive Security</CardMeta>
-							<CardHeading>FullCourt</CardHeading>
+							<CardMeta>Mobile App</CardMeta>
+							<CardHeading>Fullcourt</CardHeading>
 							<CardDescription>
 								Helping a basketball app protect thier user data through using
 								security tools and security audits.
@@ -48,12 +48,13 @@ const ProjectGrid = () => {
 					{/*  Card 2 */}
 					<CardWrapper>
 						<a
+							className="card-position"
 							href="https://delphic-beauty.netlify.app/"
 							target="_blank"
 							rel="noreferrer">
 							<Image
 								className="img-hover"
-								width={500}
+								width={600}
 								src={DelphicMac}
 								alt="Delphic Preview"
 							/>
@@ -98,10 +99,9 @@ const ProjectGrid = () => {
 							rel="noreferrer">
 							<Image
 								className="img-hover"
-								layout="intrinsic"
-								src="https://i.stack.imgur.com/Gns38.png"
-								width={500}
-								height={500}
+								src="https://www.cnet.com/a/img/resize/c8e177fc03893ab03730c078ecf53a457f249009/hub/2018/09/25/15f64cde-e248-4093-8528-44372905fdd6/2019-mercedes-amg-gt-63-s-4-door-coupe-29.jpg?auto=webp&fit=crop&height=675&width=1200"
+								width={600}
+								height={400}
 								alt="Boston Preview"
 							/>
 						</a>

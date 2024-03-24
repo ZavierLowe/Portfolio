@@ -1,0 +1,74 @@
+.nav{
+    font-family: "ClashDisplay-variable", sans-serif;
+	color: #212121;
+	background-color: rgba(248, 240, 227, 0.7);
+	backdrop-filter: blur(130px);
+	box-shadow: 0px 4px 16px 6px rgba(0, 0, 0, 0.25);
+	z-index: 1000;
+	position: fixed;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width: 80%;
+	padding: 24px 24px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	border: 0.5px solid #353535;
+	@media (max-width: 1024px) {
+		display: flex;
+	}
+	@media (max-width: 768px) {
+		display: none;
+	}
+	@media (max-width: 425px) {
+		display: none;
+	}
+}
+
+.logo{
+	
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+.logo:hover{
+	
+		color: #7926e6;
+		text-decoration: underline;
+		transition: all 0.3s;
+	
+}
+
+.links{
+	display: flex;
+	margin-left: 16px;
+	cursor: pointer;
+	
+
+	@media (max-width: 425px) {
+		display: block;
+	}
+
+
+}
+
+.navItems{
+	display: flex;
+	
+	margin-left: 16px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.navLink{
+	text-decoration: none;
+	font-weight: 700;
+	margin-left: 16px;
+	color: #212121;
+	font-weight: 300;
+}

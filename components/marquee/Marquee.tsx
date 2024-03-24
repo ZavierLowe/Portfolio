@@ -1,9 +1,12 @@
 import React from 'react';
 import styles from './marquee.module.css'
+import { Container } from '../container.styled';
 
 const Marquee = () => {
     return (
         <div>
+            <Container>
+
             <section className="">
                 <div
                     className={styles.marqueeSection}
@@ -65,6 +68,7 @@ const Marquee = () => {
                     </div>
                 </div>
             </section>
+            </Container>
 
         </div>
     );

@@ -1,6 +1,5 @@
-import React from 'react';
+import React from "react";
 import styled from "styled-components";
-
 
 export const Button = styled.button`
 	background: white;
@@ -33,9 +32,13 @@ export const Button = styled.button`
 	}
 
 	&:hover {
-		background: #6817d1;
+		background: linear-gradient(
+			160deg,
+			rgba(255, 255, 81, 0.817) 20%,
+			rgba(105, 122, 248, 0.856) 84.16%
+		);
 		transition: all 0.5s;
-		color: #fefefe;
+		color: #121212;
 		padding-right: 10px;
 		padding-left: 40px;
 		margin-right: -12px;
@@ -47,5 +50,3 @@ export const Button = styled.button`
 		}
 	}
 `;
-
-

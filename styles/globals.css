@@ -53,12 +53,35 @@ table {
   } */
   body {
 
-    color: #020202;
+    color: #121212;
     background: #f6eee5;
-    font-family: 'ClashDisplay-Variable';
-
+    margin: 0;
+    overflow-x: hidden;
+    
+  z-index: 1;
    
 }
+
+.page-wrapper{
+  position: relative;
+}
+
+.grain-overlay{
+  z-index: -1;
+    
+    background-image: url(../assets/images/Super_Grain.gif);
+    background-position: 0 0;
+    background-size: auto;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    overflow-y: auto;
+}
+
+
+
 
 @font-face {
   font-family: 'GeneralSans-Variable';
@@ -161,15 +184,14 @@ table {
 
 .img-hover{
   cursor: pointer;
-  transition: transform 0.4s
-
+  border-radius: 20px;
+  margin-top: 20px;
+  object-fit: contain;
+  
 	
 }
 
-.img-hover:hover{
-transform: scale(1.024);
-transition: all 0.4s;
-}
+
 
 .lightbox-img{
   display: flex;
@@ -242,7 +264,9 @@ transition: all 0.4s;
 }
 
 
-
+.card-postion{
+  padding:20px
+}
 
 
 
